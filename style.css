@@ -559,4 +559,44 @@ section {
   .social-icons a:hover {
     color: #ffffff;
   }
-  
+  /* HOME and ABOUT Containers */
+.home-container,
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Image sizing consistent */
+.home-container .image img,
+.about-container .image img {
+  width: 350px;
+  height: auto;
+  border-radius: 25px;
+}
+
+/* Centering text content */
+.home-container .content,
+.about-container .content {
+  flex: 1;
+  text-align: center;
+}
+
+.about-container .content {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .home-container,
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-container .image img,
+  .about-container .image img {
+    width: 250px;
+  }
+}
