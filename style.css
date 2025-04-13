@@ -331,7 +331,7 @@ header nav a.active {
   gap: 50px;
 }
 
-/* ------------------ Contact ------------------ */
+/*  Contact  */
 #Contact {
   padding: 60px 20px;
   background: linear-gradient(145deg, #11306d, #1a1a1a);
@@ -394,7 +394,7 @@ header nav a.active {
   color: #ffffff;
 }
 
-/* ------------------ Layout Split Section ------------------ */
+/* Layout Split Section */
 .split-layout {
   display: flex;
   justify-content: space-between;
@@ -427,7 +427,7 @@ header nav a.active {
   height: auto;
 }
 
-/* ------------------ Buttons ------------------ */
+/* Buttons*/
 .btn {
   background: linear-gradient(135deg, #00d9ff, #00cebd);
   color: #ffffff;
@@ -465,7 +465,7 @@ header nav a.active {
   box-shadow: 0 10px 25px rgba(47, 0, 255, 0.4);
 }
 
-/* ------------------ Responsive ------------------ */
+/* Responsive*/
 @media (max-width: 768px) {
   header .container,
   #home .container,
