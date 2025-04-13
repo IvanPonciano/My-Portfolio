@@ -277,7 +277,9 @@ header nav a.active {
   border-radius: 20px;
   padding: 20px;
   width: 280px;
-  min-height: 280px;
+  max-width: 350px;
+  min-height: auto;
+  height: auto;
   text-align: center;
   box-shadow: 0 4px 15px rgba(55, 0, 255, 0.2);
   transition: transform 0.3s ease;
@@ -307,17 +309,17 @@ header nav a.active {
 }
 
 .skill-description {
-  max-height: 0;
-  overflow: hidden;
+  max-height: 100px;
+  overflow: visible;
   opacity: 0;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
   font-size: 14px;
   margin-top: 10px;
   color: #fff;
 }
 
 .skill-card:hover .skill-description {
-  max-height: 100px;
+  max-height: 1000px;
   opacity: 1;
 }
 
@@ -328,6 +330,7 @@ header nav a.active {
   max-width: 2000px;
   max-height: 1000px;
   padding: 10px;
+ 
   gap: 50px;
 }
 
