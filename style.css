@@ -330,7 +330,7 @@ header nav a.active {
   max-width: 2000px;
   max-height: 1000px;
   padding: 10px;
- 
+  align-items: flex-start;
   gap: 50px;
 }
 
